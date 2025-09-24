@@ -43,3 +43,37 @@ This ensures **scalability** and **maintainability**.
 - UI listens to state changes and updates instantly without unnecessary rebuilds.
 
 ### 3. Folder Organization
+lib/
+├─ core/ # Networking, theme, helpers, and widgets
+├─ features/
+│ └─ home/
+│ ├─ data/ # Models & Repos & data source
+│ ├─ domain/ # Entities & use cases & repo
+│ └─ presentation/ # Screens, widgets, and Cubits
+└─ main.dart
+---
+
+## 🧩 Clean Code Principles in Action
+
+- **Single Responsibility:** Each class has a single purpose. Widgets focus on UI, Cubits on state, and models on data structure.  
+- **Separation of Concerns:** Presentation, domain, and data layers are fully decoupled.  
+- **Reusable Widgets:** Common UI components like `AnimeInfoItem`, `CoverAndLogo`, and `WatchAndPreviewButtons` are modular and reusable.  
+- **Testable Code:** Business logic and use cases are separated from UI for easier testing.
+
+---
+## Demo Video Of UI
+
+https://drive.google.com/file/d/1VSMiFPlXsc6Ri3sxxFnsfhsjkafPWZbc/view?usp=drive_link
+
+## 🚀 How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/mazenanter/anime_app.git
+cd anime_app
+
+# Install dependencies
+flutter pub get
+
+# Run the app on an emulator or real device
+flutter run
