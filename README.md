@@ -42,3 +42,16 @@ lib/
 │        ├─ domain/        # Entities & use cases & repo
 │        └─ presentation/  # Screens, widgets, and Cubits
 └─ main.dart
+```
+# Demo Video Of UI
+https://drive.google.com/file/d/1VSMiFPlXsc6Ri3sxxFnsfhsjkafPWZbc/view?usp=drive_link
+
+# Clone the repository
+git clone https://github.com/mazenanter/anime_app.git
+cd anime_app
+
+# Install dependencies
+flutter pub get
+
+# Run the app on an emulator or real device
+flutter run
