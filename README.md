@@ -44,12 +44,12 @@ This ensures **scalability** and **maintainability**.
 
 ### 3. Folder Organization
 lib/
-├─ core/ # Networking, theme, helpers, and widgets
+├─ core/           # Networking, theme, helpers, and widgets
 ├─ features/
-│ └─ home/
-│ ├─ data/ # Models & Repos & data source
-│ ├─ domain/ # Entities & use cases & repo
-│ └─ presentation/ # Screens, widgets, and Cubits
+│    └─ home/
+│        ├─ data/          # Models & Repos & data source
+│        ├─ domain/        # Entities & use cases & repo
+│        └─ presentation/  # Screens, widgets, and Cubits
 └─ main.dart
 ---
 
